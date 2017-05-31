@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045909A71EDF5F1B00AE8EAE /* TenidexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045909A61EDF5F1B00AE8EAE /* TenidexViewController.swift */; };
+		045909A91EDF615100AE8EAE /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045909A81EDF615100AE8EAE /* CoreDataHelper.swift */; };
+		045909AB1EDF735900AE8EAE /* TennisBoyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045909AA1EDF735900AE8EAE /* TennisBoyAnnotation.swift */; };
 		04FB2D621EDEA8A400B886A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB2D611EDEA8A400B886A1 /* AppDelegate.swift */; };
 		04FB2D641EDEA8A400B886A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB2D631EDEA8A400B886A1 /* ViewController.swift */; };
 		04FB2D671EDEA8A400B886A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB2D651EDEA8A400B886A1 /* Main.storyboard */; };
 		04FB2D6A1EDEA8A400B886A1 /* TenipuriGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FB2D681EDEA8A400B886A1 /* TenipuriGo.xcdatamodeld */; };
 		04FB2D6C1EDEA8A400B886A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB2D6B1EDEA8A400B886A1 /* Assets.xcassets */; };
 		04FB2D6F1EDEA8A400B886A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB2D6D1EDEA8A400B886A1 /* LaunchScreen.storyboard */; };
+		04FB2D781EDEB8B500B886A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB2D771EDEB8B500B886A1 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045909A61EDF5F1B00AE8EAE /* TenidexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenidexViewController.swift; sourceTree = "<group>"; };
+		045909A81EDF615100AE8EAE /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		045909AA1EDF735900AE8EAE /* TennisBoyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TennisBoyAnnotation.swift; sourceTree = "<group>"; };
 		04FB2D5E1EDEA8A300B886A1 /* TenipuriGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenipuriGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FB2D611EDEA8A400B886A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FB2D631EDEA8A400B886A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		04FB2D6B1EDEA8A400B886A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FB2D6E1EDEA8A400B886A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FB2D701EDEA8A400B886A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FB2D771EDEB8B500B886A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FB2D781EDEB8B500B886A1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 			children = (
 				04FB2D601EDEA8A300B886A1 /* TenipuriGo */,
 				04FB2D5F1EDEA8A300B886A1 /* Products */,
+				04FB2D761EDEB8B500B886A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +68,24 @@
 			children = (
 				04FB2D611EDEA8A400B886A1 /* AppDelegate.swift */,
 				04FB2D631EDEA8A400B886A1 /* ViewController.swift */,
+				045909A61EDF5F1B00AE8EAE /* TenidexViewController.swift */,
+				045909A81EDF615100AE8EAE /* CoreDataHelper.swift */,
 				04FB2D651EDEA8A400B886A1 /* Main.storyboard */,
 				04FB2D6B1EDEA8A400B886A1 /* Assets.xcassets */,
 				04FB2D6D1EDEA8A400B886A1 /* LaunchScreen.storyboard */,
 				04FB2D701EDEA8A400B886A1 /* Info.plist */,
 				04FB2D681EDEA8A400B886A1 /* TenipuriGo.xcdatamodeld */,
+				045909AA1EDF735900AE8EAE /* TennisBoyAnnotation.swift */,
 			);
 			path = TenipuriGo;
+			sourceTree = "<group>";
+		};
+		04FB2D761EDEB8B500B886A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FB2D771EDEB8B500B886A1 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045909A91EDF615100AE8EAE /* CoreDataHelper.swift in Sources */,
 				04FB2D641EDEA8A400B886A1 /* ViewController.swift in Sources */,
 				04FB2D621EDEA8A400B886A1 /* AppDelegate.swift in Sources */,
+				045909A71EDF5F1B00AE8EAE /* TenidexViewController.swift in Sources */,
+				045909AB1EDF735900AE8EAE /* TennisBoyAnnotation.swift in Sources */,
 				04FB2D6A1EDEA8A400B886A1 /* TenipuriGo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +329,7 @@
 				04FB2D751EDEA8A400B886A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
